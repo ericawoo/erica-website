@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <title>
-            {% if page.title %}{{page.title}}{% else %}{{ site.title | escape
-            }}{% endif %}
+            {% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}
+            {% unless page.layout == 'home' %} | {{site.data.seo.title_caption}}{% endunless %}
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
