@@ -13,5 +13,3 @@ show_call_box: false
 I'm Erica, a Calgary-based child development expert dedicated to helping children thrive. Rooted in play-based, child-led therapy, I believe in fostering growth, confidence, and joy in every child.
 
 My focuses are on **providing classroom, in-home, and community support via Program Unit Funding (PUF) and Family Services for Children with Disabilities (FSCD)**.
-
-Continue on below to read on some of the various therapy services I provide.
