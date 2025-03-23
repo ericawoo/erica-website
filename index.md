@@ -1,5 +1,5 @@
 ---
-title: Erica Woo
+title: Erica Woo | Pediatrics Occupational Therapist in Calgary, AB
 layout: home
 description: Child development expert. Pediatrics Occupational Therapist based in Calgary, AB, Canada.
 intro_image: "images/illustrations/pointing.svg"
