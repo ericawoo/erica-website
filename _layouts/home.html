@@ -21,29 +21,28 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-6 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 150 }}</p>
+<div id="areas-of-concern">
+    <div class="container pt-3 pb-6 pt-md-5 pb-md-10">
+        <div class="row justify-content-start">
+          {% for concern in site.concerns %}
+          <div class="col-12 col-md-4 mb-1">
+            <div class="concern concern-summary">
+              <div class="concern-content">
+                <h2 class="concern-title">
+                    {{ concern.title }}
+                </h2>
+                <p>{{ concern.excerpt | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
           </div>
         </div>
-      </div>
-      {% endfor %}
     </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
-    </div>
-  </div>
 </div>
 
 {% if site.data.features %}

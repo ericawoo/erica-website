@@ -12,6 +12,9 @@ home:
   limit_services: 6
 
 collections:
+  concerns:
+    output: true
+    sort_by: weight
   services:
     output: true
     sort_by: weight
