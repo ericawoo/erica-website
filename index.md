@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: false
 show_call_box: false
 ---
 
-# Helping Little Minds Do Big Things
+# Where Every Child's Potential Shines
 
 ## I'm a registered occupational therapist providing in-home and community support to help you and your child thrive.
 
