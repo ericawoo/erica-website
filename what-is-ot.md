@@ -39,3 +39,46 @@ Self regulation is the ability to handle stresses and manage your emotions, thou
 .
 ## A little bit about fine motor skills…
 Fine motor skills refer to the movements of our hands and fingers, which require a foundation of core strength and gross motor skills to master. Fine motor skills are important for independence with tasks such as zipping up a jacket, using a spoon, holding a pencil, and building with blocks. Delays in fine motor development may impact a child’s ability to succeed in school and complete self-care tasks independently. Occupational therapy can help identify areas that are delayed and practice skills in a play-based manner.
+
+## Kindergarten Readiness
+Starting kindergarten is an exciting milestone! For some kids, this may be their first foray into learning and playing in a large group, and learning to follow routines and structured activities. School success is not only about academics and learning to read and write. Ensuring that your child is ready for kindergarten will help them develop the foundational skills required for future success.
+
+### Kindergarten readiness checklist:
+#### Life skills
+* Your child knows their first and last name and can recognize it in print.
+* Your child is toilet-trained and can (for the most part) manage their own clothing during bathroom breaks.
+* Your child can identify their shoes/boots and outdoor clothing and knows how to button, buckle, zip and fasten.
+* Your child can open lunch containers and feed themselves.
+* Your child can follow 2-3 step instructions and ask for help if needed.
+* Your child understands and handles transitions between activities with little difficulty.
+* Your child tries to self-regulate and articulate their feelings in words.
+* Your child can play cooperatively with others (most of the time…).
+* Your child shows awareness of personal space.
+* Your child can sit and attend to a story or other group activity.
+* Your child is excited by learning new things and accepts that they will sometimes make mistakes (and that it’s okay and even encouraged!).
+
+#### Physical skills
+* Your child can hold a crayon or pencil correctly.
+* Your child can cut simple shapes with scissors.
+* Your child can do an age-appropriate puzzle.
+* Your child can draw simple lines and shapes in preparation for printing
+    * Eg. ⎸ — O + /  ▭  \ X △
+* Your child can run, jump, hop, and skip.
+* Your child can throw and catch a ball.
+* Your child can ride a tricycle or bicycle.
+
+#### Literacy basics
+* Your child will sit and listen quietly to a story, following the plotline.
+* Your child will look at the pictures in a book independently.
+* Your child can put the events of a story timeline in chronological order.
+* Your child can explain what happens to a character and how they might feel.
+* Your child can draw pictures to tell a story.
+* Your child imitates letters as “writing.”
+* Your child asks you to write notes to others and can dictate what they want to say.
+* Numeracy and mathematics basics
+* Your child can make more-or-less comparisons.
+* Your child can count using one-to-one correspondence (points to each object as they count).
+* Your child can recognize and name basic shapes.
+* Your child is starting to notice patterns in their every day environment.
+
+_Adapted from [Parents Canada (2020, October 27). Kindergarten Readiness Checklist.](https://parentscanada.com/preschool/kindergarten-readiness-checklist/)_
