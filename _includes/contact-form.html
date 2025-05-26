@@ -1,0 +1,150 @@
+<form
+    id="contact-form"
+    class="form-floating"
+    action="https://fabform.io/f/RRQB6ea"
+    method="post"
+>
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label" for="name">Name:</label>
+        <div class="col-sm-10">
+            <input
+                class="form-control"
+                type="text"
+                id="name"
+                name="name"
+                required
+            />
+        </div>
+    </div>
+
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label" for="email">Email:</label>
+        <div class="col-sm-10">
+            <input
+                class="form-control"
+                type="email"
+                id="email"
+                name="email"
+                required
+            />
+        </div>
+    </div>
+
+    <div class="mb-3 row">
+        <label class="col-sm-4 col-form-label" for="location"
+            >Where are you located? <small>(Community name)</small></label
+        >
+        <div class="col-sm-8">
+            <input
+                class="form-control"
+                type="location"
+                id="location"
+                name="location"
+                required
+            />
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"
+            >What days are you available for sessions?</label
+        >
+        <br />
+        <div class="form-check form-check-inline">
+            <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckboxMondays"
+                value="mondays"
+            />
+            <label class="form-check-label" for="inlineCheckboxMondays"
+                >Mondays</label
+            >
+        </div>
+        <div class="form-check form-check-inline">
+            <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckboxTuesdays"
+                value="tuesdays"
+            />
+            <label class="form-check-label" for="inlineCheckboxTuesdays"
+                >Tuesdays</label
+            >
+        </div>
+        <div class="form-check form-check-inline">
+            <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckboxWednesdays"
+                value="wednesdays"
+            />
+            <label class="form-check-label" for="inlineCheckboxWednesdays"
+                >Wednesdays</label
+            >
+        </div>
+        <div class="form-check form-check-inline">
+            <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckboxThursdays"
+                value="thursdays"
+            />
+            <label class="form-check-label" for="inlineCheckboxThursdays"
+                >Thursdays</label
+            >
+        </div>
+        <div class="form-check form-check-inline">
+            <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckboxFridays"
+                value="fridays"
+            />
+            <label class="form-check-label" for="inlineCheckboxFridays"
+                >Fridays</label
+            >
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"
+            >What time of day are you available for sessions?</label
+        >
+        <br />
+        <div class="form-check form-check-inline">
+            <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckboxAM"
+                value="am"
+            />
+            <label class="form-check-label" for="inlineCheckboxAM">AM</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckboxPM"
+                value="pm"
+            />
+            <label class="form-check-label" for="inlineCheckboxPM">PM</label>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="message"
+            >Tell me a little bit about your child (age, diagnosis, main
+            concerns):</label
+        >
+        <textarea
+            class="form-control"
+            id="message"
+            name="message"
+            rows="3"
+            required
+        ></textarea>
+    </div>
+
+    <input class="btn" type="submit" value="Submit" />
+</form>
