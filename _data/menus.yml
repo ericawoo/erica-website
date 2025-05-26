@@ -1,13 +1,16 @@
 main:
+  - name: "What is OT?"
+    url: "/what-is-ot/"
+    weight: 2
   - name: "FAQs"
     url: "/faqs/"
-    weight: 2
+    weight: 3
   - name: "About"
     url: "/about/"
-    weight: 3
+    weight: 4
   - name: "Contact"
     url: "/contact/"
-    weight: 4
+    weight: 5
 
 footer:
   - name: "Home"
