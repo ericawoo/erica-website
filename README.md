@@ -13,7 +13,3 @@ Serve
 ```sh
 bundle exec jekyll serve
 ```
-
-## Thanks
-
-Illustrations by [Pixeltrue Ouch!](https://icons8.com/illustrations/author/ARh4OKrFtdfC)
