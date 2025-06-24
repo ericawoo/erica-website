@@ -1,4 +1,7 @@
 main:
+  - name: "Home"
+    url: "/"
+    weight: 1
   - name: "What is OT?"
     url: "/what-is-ot/"
     weight: 2
