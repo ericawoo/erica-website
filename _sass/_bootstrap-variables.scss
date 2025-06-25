@@ -18,20 +18,50 @@ $container-max-widths: (
 $grid-gutter-width: 30px;
 
 $spacer: 1rem;
-$spacers: ();
-$spacers: map-merge(
-  (
-    0: 0,
-    1: 10px,
-    2: 20px,
-    3: 30px,
-    4: 40px,
-    5: 50px,
-    6: 60px,
-    7: 70px,
-    8: 80px,
-    9: 90px,
-    10: 100px,
-  ),
-  $spacers
+$spacers: (
 );
+$spacers: map-merge((0: 0,
+      1: 10px,
+      2: 20px,
+      3: 30px,
+      4: 40px,
+      5: 50px,
+      6: 60px,
+      7: 70px,
+      8: 80px,
+      9: 90px,
+      10: 100px,
+    ),
+    $spacers);
+
+// Colors
+$primary: #8041bf;
+$primary-dark: #5f1bbf;
+$secondary: #ff6390;
+$black: #2f2f41;
+$white: #fcfef8;
+$white-offset: #f7efff;
+$steel: #5c5a5a;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+// Body
+$body-color: $steel;
+
+// Fonts
+$font-family-base: "Poppins",
+  Helvetica,
+  Arial,
+  sans-serif,
+  -apple-system;
+$font-family-heading: "Poppins",
+  sans-serif,
+  -apple-system;
+
+// Footer
+$footer-background-color: darken($primary, 10%);
+$footer-text-color: $white;

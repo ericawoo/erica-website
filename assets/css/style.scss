@@ -1,37 +1,6 @@
 ---
 ---
 
-// Colors
-$primary: #8041bf;
-$primary-dark: #5f1bbf;
-$secondary: #ff6390;
-$black: #2f2f41;
-$white: #fcfef8;
-$white-offset: #f7efff;
-$steel: #5c5a5a;
-
-// Links
-$link-color: $primary;
-$link-decoration: none;
-$link-hover-color: lighten($primary, 10%);
-$link-hover-decoration: underline;
-
-// Fonts
-$font-family-base:
-    "Poppins",
-    Helvetica,
-    Arial,
-    sans-serif,
-    -apple-system;
-$font-family-heading:
-    "Poppins",
-    sans-serif,
-    -apple-system;
-
-// Footer
-$footer-background-color: darken($primary, 10%);
-$footer-text-color: $white;
-
 // Bootstrap 5.3.2
 
 // 1. Include Bootstrap functions first
