@@ -2,12 +2,9 @@
     <div class="container">
         <div class="logo">
             <a href="{{ site.url }}">
-                <img
-                    width="{{ site.logo.desktop_width }}"
-                    height="{{ site.logo.desktop_height }}"
-                    alt="{{ site.title }}"
-                    src="{{ site.logo.desktop | relative_url }}"
-                />
+                <img id="logo-image" width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}"
+                    alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}"
+                    data-dark-src="{{ site.logo.dark | relative_url }}" />
             </a>
         </div>
         {% include main-menu.html %} {% include hamburger.html %}

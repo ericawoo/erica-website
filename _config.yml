@@ -5,6 +5,7 @@ email: ericawoo@gmail.com
 
 logo:
   desktop: "images/logo/logo.svg"
+  dark: "images/logo/logo-dark.svg"
   desktop_height: "67px"
   desktop_width: "192px"
 

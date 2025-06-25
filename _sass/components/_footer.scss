@@ -3,6 +3,7 @@
     color: $footer-text-color;
     padding-top: 25px;
     padding-bottom: 25px;
+
     /* @include media-breakpoint-up(md) {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -12,6 +13,7 @@
         flex-direction: column;
         font-size: 14px;
         justify-content: space-between;
+
         @include media-breakpoint-up(md) {
             flex-direction: row;
         }
