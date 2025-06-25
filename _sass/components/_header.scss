@@ -1,5 +1,5 @@
 .header {
-    color: $primary;
+    color: var(--#{$prefix}body-color);
     background-color: var(--#{$prefix}body-bg);
     display: flex;
     justify-content: space-between;

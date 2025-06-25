@@ -21,9 +21,23 @@
 
     const setTheme = theme => {
         if (theme === 'auto') {
-            document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'))
+            const desiredTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-bs-theme', desiredTheme)
+            setHeaderLogo(desiredTheme)
         } else {
             document.documentElement.setAttribute('data-bs-theme', theme)
+            setHeaderLogo(theme)
+        }
+    }
+
+    const logoElement = document.getElementById('logo-image')
+    const originalLogoSrc = logoElement.src
+
+    const setHeaderLogo = theme => {
+        if (theme === 'dark') {
+            logoElement.src = logoElement.getAttribute('data-dark-src')
+        } else {
+            logoElement.src = originalLogoSrc
         }
     }
 
@@ -37,8 +51,6 @@
     })
 
     window.addEventListener('DOMContentLoaded', () => {
-        showActiveTheme(getPreferredTheme())
-
         document.querySelectorAll('[data-bs-theme-value]')
             .forEach(toggle => {
                 toggle.addEventListener('click', () => {
