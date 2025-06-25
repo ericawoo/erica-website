@@ -18,6 +18,12 @@
             flex-direction: row;
         }
 
+        @include media-breakpoint-down(md) {
+            .site-builder {
+                padding-top: 10pt;
+            }
+        }
+
         a {
             font-weight: bold;
             color: inherit;
