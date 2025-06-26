@@ -1,63 +1,82 @@
-<form
-    id="contact-form"
-    class="form-floating"
-    action="https://fabform.io/f/RRQB6ea"
-    method="post"
->
-    <div class="mb-3 row">
+<form id="contact-form" class="form-floating" action="https://formspree.io/f/mgvyprpd" method="post">
+    <div class=" mb-3 row">
         <label class="col-sm-2 col-form-label" for="name">Name:</label>
         <div class="col-sm-10">
-            <input
-                class="form-control"
-                type="text"
-                id="name"
-                name="name"
-                required
-            />
+            <input class="form-control" type="text" id="name" name="name" required />
         </div>
     </div>
 
     <div class="mb-3 row">
         <label class="col-sm-2 col-form-label" for="email">Email:</label>
         <div class="col-sm-10">
-            <input
-                class="form-control"
-                type="email"
-                id="email"
-                name="email"
-                required
-            />
+            <input class="form-control" type="email" id="email" name="email" required />
         </div>
     </div>
 
     <div class="mb-3 row">
-        <label class="col-sm-4 col-form-label" for="location"
-            >Where are you located? <small>(Community name)</small></label
-        >
+        <label class="col-sm-4 col-form-label" for="location">Where are you located? <small>(Community
+                name)</small></label>
         <div class="col-sm-8">
-            <input
-                class="form-control"
-                type="location"
-                id="location"
-                name="location"
-                required
-            />
+            <input class="form-control" type="location" id="location" name="location" required />
         </div>
     </div>
 
     <div class="mb-3">
-        <label class="form-label" for="message"
-            >Tell me a little bit about your child (age, diagnosis, main
-            concerns):</label
-        >
-        <textarea
-            class="form-control"
-            id="message"
-            name="message"
-            rows="3"
-            required
-        ></textarea>
+        <label class="form-label" for="message">Tell me a little bit about your child (age, diagnosis, main
+            concerns):</label>
+        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
     </div>
 
-    <input class="btn" type="submit" value="Submit" />
+    <input id="submit-button" class="btn btn-primary mb-3" type="submit" value="Submit" />
+
+    <button id="loading-button" class="btn btn-primary mb-3 visually-hidden" type="submit" disabled>
+        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+        <span class="visually-hidden" role="status">Submitting...</span>
+    </button>
+
+    <p id="my-form-status" class="mb-3"></p>
 </form>
+
+<script>
+    var form = document.getElementById("contact-form");
+
+    async function handleSubmit(event) {
+        var submitButton = document.getElementById("submit-button");
+        var loadingButton = document.getElementById("loading-button");
+        submitButton.classList.add("visually-hidden");
+        loadingButton.classList.remove("visually-hidden");
+
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            loadingButton.classList.add("visually-hidden");
+
+            if (response.ok) {
+                status.innerHTML = "Thanks! I'll be in touch.";
+                form.reset()
+            } else {
+                submitButton.classList.remove("visually-hidden");
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Oops! There was a problem submitting your details"
+                    }
+                })
+            }
+        }).catch(error => {
+            loadingButton.classList.add("visually-hidden");
+            submitButton.classList.remove("visually-hidden");
+
+            status.innerHTML = "Oops! There was a problem submitting your details"
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
