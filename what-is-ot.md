@@ -6,10 +6,9 @@ description: What is Occupational Therapy?
 
 Occupational therapy is a healthcare field that helps individuals engage in meaningful activities, or “occupations”. The occupations of children may include activities of daily living (eg. Eating, dressing, sleeping), playing, drawing, throwing a ball, playing piano, and going to school. An occupational therapist (OT) analyzes the child’s skills, as well as the environment, family, and external supports available to build independence and increase overall wellbeing.
 
-## A little bit about sensory processing…
-
 ![A child playing on a swing]({{ site.baseurl }}/images/what-is-ot/andrey-k-7ebAmGFd8L4-unsplash.jpg){: .w-50 .float-end .rounded .m-4}
 
+## A little bit about sensory processing…
 Sensory processing refers to how our brain receives, interprets, and organizes sensory information from the environment. We are able to respond appropriately to situations by efficiently integrating senses around us and in our bodies. Children who have differences in processing sensory information may have difficulties organizing the amount of sensory input coming to them, which can affect their ability to control behaviours, attention, and regulation.
 
 Everyone has a unique sensory processing system. For example, some of us need a quiet space to work or study, while others need to be in the presence of others to stay focused. Sensory processing may be described as being overactive, or under responsive. You can be seeking sensory input in one area, and avoidant in another area. It may be addressed if sensory processing differences impact a child’s ability to function in their daily activities. There are 8 senses that OTs look at:
